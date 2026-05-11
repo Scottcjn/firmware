@@ -120,7 +120,7 @@ _(none)_
    1. Green LED will turn on
    2. Red LED will flash several times to indicate flash memory writes during initial settings file creation
    3. Green LED will blink every second once the firmware is running normally
-5. If you do not see the above LED patters, proceed to [Troubleshooting](#4-troubleshooting)
+5. If you do not see the above LED patterns, proceed to [Troubleshooting](#4-troubleshooting)
 
 ## 4. Troubleshooting
 
