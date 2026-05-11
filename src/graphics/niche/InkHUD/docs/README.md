@@ -59,7 +59,7 @@ It is intended to supplement a connected client app.
 
 Information should be displayed as statically as possible. Unnecessary updates should be avoided.
 
-As as example, fixed timestamps are used instead of `X seconds ago` labels, as these need to be constantly updated to remain current.
+As an example, fixed timestamps are used instead of `X seconds ago` labels, as these need to be constantly updated to remain current.
 
 ### Non-interactive
 
@@ -225,7 +225,7 @@ ProcessMessage InkHUD::NewMsgExampleApplet::handleReceived(const meshtastic_Mesh
 
     if (!isFromUs(&mp)) {
         // Store the sender's nodenum
-        // We need to keep this information, so we can re-use it anytime render() is called
+        // We need to keep this information, so we can reuse it any time render() is called
         haveMessage = true;
         fromWho = mp.from;
 
@@ -602,7 +602,7 @@ To oversimplify, all of the InkHUD code "under the hood" only exists to support 
 
 `Applet` implements most AdafruitGFX drawing methods. Exception is the text handling. `printAt`, `printWrapped`, and `printThick` should be used instead. These are intended to be more convenient, but they also implement the character substitution system which powers the foreign alphabet support.
 
-`Applet` also adds methods for drawing several design elements which are re-used commonly though-out InkHUD.
+`Applet` also adds methods for drawing several design elements which are commonly reused throughout InkHUD.
 
 #### InkHUD Events
 
